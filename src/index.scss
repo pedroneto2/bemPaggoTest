@@ -1,0 +1,24 @@
+$primary: #63289b;
+$secondary: #8c00c3;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.form-header {
+  height: 200px;
+  border-radius: 7px 7px 50% 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #8c00c3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
